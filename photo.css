@@ -1,0 +1,169 @@
+body {
+  margin: 0px;
+  padding-top: 50px;
+  width: 100vw;
+}
+.header {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(25, 25, 80);
+  top: 0px;
+  z-index: 100;position: fixed;
+}
+.header-box1 {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+.text1 {
+  color: deeppink;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10%;
+  font-size: 20px;
+  cursor: default;
+  animation-name: fiona;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes fiona {
+
+  from{
+    color: deeppink;
+  font-family: "Courier New", Courier, monospace;
+  cursor: pointer;
+  font-weight: bold;
+  margin-right: 10%;
+  font-size: 20px;
+  cursor: default;
+  }
+  to{
+    color:white;
+    text-shadow: 0px 0px 5px black;
+  }
+  
+}
+.span-text1 {
+  color: white;
+  font-size: 40px;
+  cursor: default;
+  margin-left: 10px;
+  animation-name: fiona1;
+  animation-duration: 3s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes fiona1 {
+
+  from{
+    color: white;
+    text-shadow: 0px 0px 5px black;
+  }
+  to{
+    color:deeppink;
+    text-shadow: 0px 0px 0px black;
+  }
+  
+}
+.image1 {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  z-index: 20;
+  border-radius: 25px;
+}
+
+.link2 {
+  color: white;
+  font-family: monospace;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 5px;
+}
+.link2:hover
+{
+  color: greenyellow;
+  font-weight: bold;
+  letter-spacing: 2px;
+  transition: 0.3s;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+
+.box1 {
+  width: 102vw;
+  background-color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  position: relative;
+}
+.head1
+{
+  position: absolute;
+  top:0;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+}
+.head2{
+  position: absolute;
+  bottom:0;
+  right:20px;
+  font-family:monospace;
+  color: black;
+  animation-name: boonketext;
+  animation-duration: 15s;
+  animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
+}
+@keyframes boonketext {
+  from
+  {
+    width: 120%;
+  }
+  to
+  {
+    width: 0%;
+    height:20px;
+    overflow: hidden;
+  }
+}
+.box1-inner1
+{
+  
+  width: 270px;
+  height:380px;
+  margin: 2px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.box1-inner1:hover
+{
+  box-shadow: 2px 2px 5px black;
+}
+.image3
+{
+  height:100%;
+  width:100%;
+}
+.image3:hover
+{
+  width:110%;
+  height:110%;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
